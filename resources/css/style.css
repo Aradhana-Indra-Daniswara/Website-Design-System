@@ -30,7 +30,9 @@ h2{
 
 /* Colors section */
 .colors{
+  flex-grow: 1;
   border: 1px solid black;
+  border-right: none;
   padding: 2rem;
   display: flex;
   flex-direction: column;
