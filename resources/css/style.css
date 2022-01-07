@@ -1,0 +1,123 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+  
+}
+hr{
+  margin: 20px 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 48px;
+  padding: 20px;
+}
+h2{
+  font-size: 32px;
+}
+
+.sec-1,
+.sec-2{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 30px auto;
+}
+
+
+/* Colors section */
+.colors{
+  border: 1px solid black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxes{
+  display: flex;
+  height: 100%;
+}
+
+.box{
+  display: block;
+  width: 150px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.darkred{
+  background-color: #602B2B;
+  color: white;
+}
+
+.pink{
+  background-color: #E3ABAB;
+  color: white;
+}
+.lightred{
+  background-color: #DE6464;
+  color: white;
+}
+.hardenedred{
+  background-color: #5E4747;
+  color: white;
+}
+.velvetred{
+  background-color: #AB4D4D;
+  color: white;
+}
+
+
+/* Fonts section */
+
+.fonts{
+  width: 30%;
+  border: 1px solid black;
+  padding: 2rem;
+}
+.fonts-noto{
+  display: block;
+  font-family: Noto Sans;
+  font-size: 24px;
+}
+.fonts-merriweather{
+  display: block;
+  font-family: Merriweather;
+  font-size: 24px;
+}
+
+/* Text Styles section */
+.text-styles{
+  border: 1px solid black;
+  width: 100%;
+  padding: 2rem;
+}
+ul{
+  margin-left: 40px
+}
+.h1,
+.h2,
+.h3 > ul{
+  font-family: Noto Sans;
+}
+
+.h1 > .main{
+  font-weight: 700;
+  font-size: 64px;
+}
+.h2 > .main{
+  font-weight: 700;
+  font-size: 32px;
+}
+.h3 > .main{
+  font-family: Merriweather;
+  font-weight: 500;
+  font-size: 18px;
+}
